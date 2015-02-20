@@ -7,13 +7,13 @@ import java.util.Date;
 /**
  * Ticket represents ...
  *
- * @author <a href="mailto:hmendoza@24hourfit.com">hector.mendoza</a>
  * @version $Id$
  * @since 12/02/2015
  *
  */
 public class Ticket extends CommonBase
 {
+   private Integer id;
    private Catalog report;
    private User    creator;
    private Date    creationDate;
@@ -25,6 +25,33 @@ public class Ticket extends CommonBase
    private Catalog status;
    private User    solvedBy;
    private String  solutionDescription;
+
+
+   /**
+    * Constructs an instance of Ticket object.
+    */
+   public Ticket ()
+   {
+      setValid (Boolean.TRUE);
+   }
+
+
+   /**
+    * @return the id
+    */
+   public Integer getId ()
+   {
+      return id;
+   }
+
+
+   /**
+    * @param id the id to set
+    */
+   public void setId (final Integer id)
+   {
+      this.id = id;
+   }
 
 
    /**
