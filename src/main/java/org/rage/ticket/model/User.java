@@ -4,7 +4,6 @@ package org.rage.ticket.model;
 /**
  * User represents ...
  *
- * @author <a href="mailto:hmendoza@24hourfit.com">hector.mendoza</a>
  * @version $Id$
  * @since 12/02/2015
  *
