@@ -7,10 +7,6 @@ import java.io.Serializable;
 /**
  * CommonBase represents ...
  *
- * @author <a href="mailto:hector.mendoza@24hourfit.com">hector.mendoza</a>
- * @version $Id$
- * @since 12/02/2015
- *
  */
 public class CommonBase implements Serializable
 {
